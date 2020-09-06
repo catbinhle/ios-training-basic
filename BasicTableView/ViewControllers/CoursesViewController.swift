@@ -22,7 +22,8 @@ class CoursesViewController: UIViewController {
             "iOS Basic",
             "Android Basic",
             "JavaScript Basic",
-            "Server with Nodejs"
+            "Server with Nodejs",
+            "DevOps"
         ]
     }
 
