@@ -24,7 +24,8 @@ class CoursesViewController: UIViewController {
             "JavaScript Basic",
             "Server with Nodejs",
             "DevOps",
-            "Tester"
+            "Tester",
+            "QA"
         ]
     }
 
