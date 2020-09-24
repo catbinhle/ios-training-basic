@@ -28,7 +28,6 @@ class CoursesViewController: UIViewController {
             "QA",
             "PMP",
             "Dev1",
-            "Dev4"
             "Dev4",
             "Dev4-1",
             "Dev4-2"
