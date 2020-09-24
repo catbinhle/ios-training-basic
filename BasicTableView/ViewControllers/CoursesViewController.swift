@@ -27,7 +27,8 @@ class CoursesViewController: UIViewController {
             "Tester",
             "QA",
             "PMP",
-            "Dev1"
+            "Dev1",
+            "Dev4"
         ]
     }
 
