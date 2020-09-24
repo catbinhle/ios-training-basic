@@ -25,7 +25,8 @@ class CoursesViewController: UIViewController {
             "Server with Nodejs",
             "DevOps",
             "Tester",
-            "QA"
+            "QA",
+            "PMP"
         ]
     }
 
