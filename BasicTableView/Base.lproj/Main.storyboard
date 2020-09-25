@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TzH-Bc-XCX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Introduce-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BasicTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To HSST  (Hue-Saigon Software Training)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Os9-OB-lz2">
+                                <rect key="frame" x="20.5" y="418" width="373" height="60"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="DE5-qI-fah">
+                                <rect key="frame" x="72.5" y="190.5" width="269" height="179.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DE5-qI-fah" secondAttribute="height" multiplier="3:2" id="hU0-cG-XbU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="od2-gm-WPT">
+                                <rect key="frame" x="58" y="674" width="298" height="115"/>
+                                <string key="text">Author: Cat Binh Le Email: catbinhle@gmail.com Skype: catbinh_le  Fanpage: https://www.facebook.com/Hue-Saigon-Software-Training-105759857889764
+ </string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Os9-OB-lz2" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="FAf-hB-1vZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="od2-gm-WPT" secondAttribute="bottom" constant="24" id="Fqa-4f-imW"/>
+                            <constraint firstItem="Os9-OB-lz2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mx8-iC-KXj"/>
+                            <constraint firstItem="DE5-qI-fah" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.65" id="RlF-YR-Dt0"/>
+                            <constraint firstItem="od2-gm-WPT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UHS-4t-3mR"/>
+                            <constraint firstItem="Os9-OB-lz2" firstAttribute="top" secondItem="DE5-qI-fah" secondAttribute="bottom" constant="48" id="fbn-iy-gKH"/>
+                            <constraint firstItem="Os9-OB-lz2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fv1-sM-IJK"/>
+                            <constraint firstItem="DE5-qI-fah" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="glF-iv-Y1o"/>
+                            <constraint firstItem="od2-gm-WPT" firstAttribute="width" secondItem="Os9-OB-lz2" secondAttribute="width" multiplier="0.8" id="zcR-ve-aFZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Introduce" id="cre-1k-CtC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1124.6376811594205" y="-303.34821428571428"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="E9B-zI-ZZX">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="TzH-Bc-XCX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P1n-U4-JvV">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="5HQ-fm-FS8"/>
+                        <segue destination="wNR-3h-vyD" kind="relationship" relationship="viewControllers" id="QdM-1U-Atw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8n-yg-tpT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+        <!--courses-->
+        <scene sceneID="QVH-fx-ZUj">
+            <objects>
+                <viewController id="wNR-3h-vyD" customClass="CoursesViewController" customModule="BasicTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jJE-Ig-AkI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LZB-MX-Spa">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CoursesCell" id="vel-O6-HY4">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vel-O6-HY4" id="cbh-a0-trm">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="wNR-3h-vyD" id="OdA-nf-BC5"/>
+                                    <outlet property="delegate" destination="wNR-3h-vyD" id="8wt-E4-5xl"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SEk-kS-0rv">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Courses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQa-2s-w4N">
+                                        <rect key="frame" x="172" y="11.5" width="70" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="MeC-j7-1e4"/>
+                                    <constraint firstItem="RQa-2s-w4N" firstAttribute="centerX" secondItem="SEk-kS-0rv" secondAttribute="centerX" id="UO3-fX-dYk"/>
+                                    <constraint firstItem="RQa-2s-w4N" firstAttribute="centerY" secondItem="SEk-kS-0rv" secondAttribute="centerY" id="ljZ-6h-Ugq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="LZB-MX-Spa" firstAttribute="leading" secondItem="tVx-xl-0gI" secondAttribute="leading" id="4gD-MP-mXl"/>
+                            <constraint firstItem="tVx-xl-0gI" firstAttribute="bottom" secondItem="LZB-MX-Spa" secondAttribute="bottom" id="5ta-Rf-cuh"/>
+                            <constraint firstItem="tVx-xl-0gI" firstAttribute="trailing" secondItem="LZB-MX-Spa" secondAttribute="trailing" id="O6m-3h-ju6"/>
+                            <constraint firstItem="LZB-MX-Spa" firstAttribute="top" secondItem="SEk-kS-0rv" secondAttribute="bottom" id="SQO-YU-kCn"/>
+                            <constraint firstItem="SEk-kS-0rv" firstAttribute="top" secondItem="tVx-xl-0gI" secondAttribute="top" id="W52-Mq-zL7"/>
+                            <constraint firstItem="SEk-kS-0rv" firstAttribute="leading" secondItem="tVx-xl-0gI" secondAttribute="leading" id="n8o-5r-eUd"/>
+                            <constraint firstItem="SEk-kS-0rv" firstAttribute="trailing" secondItem="tVx-xl-0gI" secondAttribute="trailing" id="pFm-yC-QzA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tVx-xl-0gI"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="courses" id="grY-FG-ZP4"/>
+                    <connections>
+                        <outlet property="coursesTableView" destination="LZB-MX-Spa" id="7MT-nZ-bfT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mZK-O1-qfo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1124.6376811594205" y="433.92857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="960" height="540"/>
+    </resources>
+</document>
