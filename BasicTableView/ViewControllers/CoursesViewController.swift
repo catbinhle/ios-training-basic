@@ -32,6 +32,7 @@ class CoursesViewController: UIViewController {
             "Re-Dev1-2",
             "Re-Dev1-3",
             "Re-Dev3",
+            "Re-Dev3-1",
             "Re-Dev5"
         ]
     }
