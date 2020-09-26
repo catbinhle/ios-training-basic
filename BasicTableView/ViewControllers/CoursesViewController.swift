@@ -27,13 +27,18 @@ class CoursesViewController: UIViewController {
             "Tester",
             "QA",
             "PMP",
-            "Dev1",
-            "Dev4",
-            "Dev4-1",
-            "Dev4-2",
-            "Dev4-3",
-            "Dev4-4",
-            "Dev4-5"
+            "Re-Dev1",
+            "Re-Dev1-1",
+            "Re-Dev1-2",
+            "Re-Dev1-3",
+            "Re-Dev2",
+            "Re-Dev2-1",
+            "Re-Dev2-2",
+            "Re-Dev2-3",
+            "Re-Dev2-4",
+            "Re-Dev3",
+            "Re-Dev3-1",
+            "Re-Dev5"
         ]
     }
 

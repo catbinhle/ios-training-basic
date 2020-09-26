@@ -11,11 +11,17 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    //Test Rebase Develop 01
-    // Test rebase Develop 02
+    //Test Rebase Re - Develop 02
+    //Test Rebase Re - Develop 03
+    //Test Re - Develop 4
+    //Test Rebase Re - Develop 05
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Test Rebase Re - Develop 02
+        //Test Rebase Re - Develop 03
+        //Test Re - Develop 4
+        //Test Rebase Re - Develop 05
         return true
     }
 
@@ -24,6 +30,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
+        //Test Rebase Re - Develop 02
+        //Test Rebase Re - Develop 03
+        //Test Re - Develop 4
+        //Test Rebase Re - Develop 05
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
